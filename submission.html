@@ -1,0 +1,34 @@
+<!-- Add this section to the HTML code under the body tag -->
+<section id="submission-form">
+    <h2>Submission Form</h2>
+    <p>We appreciate your efforts in contributing to the security of our platform. Please use the form below to submit your findings:</p>
+    
+    <form action="submit_vulnerability.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+    </br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    </br>
+        <label for="severity">Vulnerability Severity:</label>
+        <select id="severity" name="severity" required>
+            <option value="critical">Critical</option>
+            <option value="high">High</option>
+            <option value="medium">Medium</option>
+            <option value="low">Low</option>
+        </select>
+    </br>
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" rows="4" required></textarea>
+    </br>
+        <label for="steps">Steps to Reproduce:</label>
+        <textarea id="steps" name="steps" rows="4" required></textarea>
+    </br>
+        <label for="attachments">Attachments (if any):</label>
+        <input type="file" id="attachments" name="attachments">
+    </br>
+        <button type="submit">Submit</button>
+    </form>
+</br>
+    <p>By submitting this form, you agree to our <a href="#disclosure-policy">Disclosure Policy</a>.</p>
+</section>

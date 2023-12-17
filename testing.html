@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Penetration Testing</title>
+</head>
+<body>
+
+  <header>
+    <h1 class="mt-5">Penetration Testing</h1>
+  </header>
+
+  <form class="mt-3" onsubmit="submitForm(event)">
+    <div class="mb-3">
+        <label for="target" class="form-label">Enter Target IP or Domain:</label>
+        <input type="text" class="form-control" id="target" name="target" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Scan</button>
+  </form>
+
+  <div id="thankYou" style="display:none;">
+    <h1>Thank You</h1>
+    <p id="thankYouMessage"></p>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Penetration Testing</p>
+  </footer>
+
+  <script>
+    function submitForm(event) {
+      event.preventDefault();
+
+      var target = document.getElementById('target').value;
+      var thankYouMessage = document.getElementById('thankYouMessage');
+
+      // Perform penetration testing logic here (replace this with your actual logic)
+
+      // Display thank you message
+      thankYouMessage.innerHTML = `Thank you for submitting your target ${target} for penetration testing. We will provide the results to your email as soon as possible.`;
+      document.getElementById('thankYou').style.display = 'block';
+    }
+  </script>
+
+</body>
+</html>

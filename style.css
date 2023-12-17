@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("bug.jpg ");
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+  
+
+ color: white;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  nav {
+    background-color: #444;
+    color: #fff;
+    padding: 0.5em;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  section {
+    padding: 2em;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  /* style.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+#rewards {
+  font-size: 20px; /* Adjust the value to increase or decrease the text size for this section */
+}
+body {
+  font-size: 18px; /* Adjust the value to increase or decrease the text size */
+}
+
+h1, h2, p, li {
+  font-size: 1.2em; /* Adjust the value to increase or decrease the text size for headings, paragraphs, and list items */
+}
+.background { 
+  position: absolute; 
+  height: 100%; 
+  width: 100%; 
+  background-image: url( 
+"https://about.fb.com/wp-content/uploads/2022/12/Bug-Bounty-Program-Year-in-Review_Header.jpg?w=1536"); 
+  background-size: cover; 
+  background-position: center; 
+  filter: blur(3px); 
+  z-index: -1; 
+}
+/* style.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
+  
